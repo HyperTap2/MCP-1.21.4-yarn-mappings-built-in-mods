@@ -1,0 +1,62 @@
+package com.viaversion.viafabricplus.protocoltranslator.impl.viaversion;
+
+import com.viaversion.viafabricplus.api.events.LoadingCycleCallback;
+import com.viaversion.viafabricplus.api.events.LoadingCycleCallback.LoadingCycle;
+import com.viaversion.viafabricplus.base.Events;
+import com.viaversion.viafabricplus.protocoltranslator.impl.provider.viabedrock.ViaFabricPlusNettyPipelineProvider;
+import com.viaversion.viafabricplus.protocoltranslator.impl.provider.vialegacy.ViaFabricPlusAlphaInventoryProvider;
+import com.viaversion.viafabricplus.protocoltranslator.impl.provider.vialegacy.ViaFabricPlusClassicMPPassProvider;
+import com.viaversion.viafabricplus.protocoltranslator.impl.provider.vialegacy.ViaFabricPlusClassicWorldHeightProvider;
+import com.viaversion.viafabricplus.protocoltranslator.impl.provider.vialegacy.ViaFabricPlusEncryptionProvider;
+import com.viaversion.viafabricplus.protocoltranslator.impl.provider.vialegacy.ViaFabricPlusGameProfileFetcher;
+import com.viaversion.viafabricplus.protocoltranslator.impl.provider.vialegacy.ViaFabricPlusOldAuthProvider;
+import com.viaversion.viafabricplus.protocoltranslator.impl.provider.viaversion.ViaFabricPlusAckSequenceProvider;
+import com.viaversion.viafabricplus.protocoltranslator.impl.provider.viaversion.ViaFabricPlusBaseVersionProvider;
+import com.viaversion.viafabricplus.protocoltranslator.impl.provider.viaversion.ViaFabricPlusCommandArgumentsProvider;
+import com.viaversion.viafabricplus.protocoltranslator.impl.provider.viaversion.ViaFabricPlusHandItemProvider;
+import com.viaversion.viafabricplus.protocoltranslator.impl.provider.viaversion.ViaFabricPlusPickItemProvider;
+import com.viaversion.viafabricplus.protocoltranslator.impl.provider.viaversion.ViaFabricPlusPlayerAbilitiesProvider;
+import com.viaversion.viafabricplus.protocoltranslator.impl.provider.viaversion.ViaFabricPlusPlayerLookTargetProvider;
+import com.viaversion.viafabricplus.settings.impl.GeneralSettings;
+import com.viaversion.vialoader.impl.viaversion.VLLoader;
+import com.viaversion.viaversion.api.Via;
+import com.viaversion.viaversion.api.minecraft.signature.SignableCommandArgumentsProvider;
+import com.viaversion.viaversion.api.platform.providers.ViaProviders;
+import com.viaversion.viaversion.api.protocol.version.VersionProvider;
+import com.viaversion.viaversion.protocols.v1_12_2to1_13.provider.PlayerLookTargetProvider;
+import com.viaversion.viaversion.protocols.v1_15_2to1_16.provider.PlayerAbilitiesProvider;
+import com.viaversion.viaversion.protocols.v1_18_2to1_19.provider.AckSequenceProvider;
+import com.viaversion.viaversion.protocols.v1_21_2to1_21_4.provider.PickItemProvider;
+import com.viaversion.viaversion.protocols.v1_8to1_9.provider.HandItemProvider;
+import net.raphimc.viabedrock.protocol.provider.NettyPipelineProvider;
+import net.raphimc.vialegacy.protocol.alpha.a1_2_3_5_1_2_6tob1_0_1_1_1.provider.AlphaInventoryProvider;
+import net.raphimc.vialegacy.protocol.classic.c0_28_30toa1_0_15.provider.ClassicMPPassProvider;
+import net.raphimc.vialegacy.protocol.classic.c0_28_30toa1_0_15.provider.ClassicWorldHeightProvider;
+import net.raphimc.vialegacy.protocol.release.r1_2_4_5tor1_3_1_2.provider.OldAuthProvider;
+import net.raphimc.vialegacy.protocol.release.r1_6_4tor1_7_2_5.provider.EncryptionProvider;
+import net.raphimc.vialegacy.protocol.release.r1_7_6_10tor1_8.provider.GameProfileFetcher;
+
+public final class ViaFabricPlusVLLoader extends VLLoader {
+   public void load() {
+      super.load();
+      ViaProviders providers = Via.getManager().getProviders();
+      providers.use(VersionProvider.class, new ViaFabricPlusBaseVersionProvider());
+      providers.use(HandItemProvider.class, new ViaFabricPlusHandItemProvider());
+      providers.use(PlayerLookTargetProvider.class, new ViaFabricPlusPlayerLookTargetProvider());
+      providers.use(PlayerAbilitiesProvider.class, new ViaFabricPlusPlayerAbilitiesProvider());
+      providers.use(SignableCommandArgumentsProvider.class, new ViaFabricPlusCommandArgumentsProvider());
+      providers.use(AckSequenceProvider.class, new ViaFabricPlusAckSequenceProvider());
+      providers.use(PickItemProvider.class, new ViaFabricPlusPickItemProvider());
+      providers.use(OldAuthProvider.class, new ViaFabricPlusOldAuthProvider());
+      providers.use(ClassicWorldHeightProvider.class, new ViaFabricPlusClassicWorldHeightProvider());
+      providers.use(EncryptionProvider.class, new ViaFabricPlusEncryptionProvider());
+      providers.use(GameProfileFetcher.class, new ViaFabricPlusGameProfileFetcher());
+      providers.use(ClassicMPPassProvider.class, new ViaFabricPlusClassicMPPassProvider());
+      if ((Boolean)GeneralSettings.INSTANCE.emulateInventoryActionsInAlphaVersions.getValue()) {
+         providers.use(AlphaInventoryProvider.class, new ViaFabricPlusAlphaInventoryProvider());
+      }
+
+      providers.use(NettyPipelineProvider.class, new ViaFabricPlusNettyPipelineProvider());
+      ((LoadingCycleCallback)Events.LOADING_CYCLE.invoker()).onLoadCycle(LoadingCycle.POST_VIAVERSION_LOAD);
+   }
+}

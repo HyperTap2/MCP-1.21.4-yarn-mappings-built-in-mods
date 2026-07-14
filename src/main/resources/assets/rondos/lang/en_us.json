@@ -1,0 +1,23 @@
+{
+  "rondos.builtin_mods.button": "Built-in Mods",
+  "rondos.builtin_mods.title": "Built-in Mods",
+  "rondos.builtin_mods.search": "Search built-in mods...",
+  "rondos.builtin_mods.configure": "Configure",
+  "rondos.builtin_mods.configurable": "Configurable",
+  "rondos.builtin_mods.not_configurable": "No config screen",
+  "rondos.builtin_mods.narration": "%1$s. %2$s. %3$s",
+  "rondos.builtin_mods.description.sodium": "Rendering performance and video options.",
+  "rondos.builtin_mods.description.sodium_extra": "Additional visual and rendering options in Sodium.",
+  "rondos.builtin_mods.description.iris": "Shader pack management and shader options.",
+  "rondos.builtin_mods.description.viafabricplus": "Protocol compatibility and version settings.",
+  "rondos.builtin_mods.description.continuity": "Connected, emissive, and custom-layer textures.",
+  "rondos.builtin_mods.description.zoomify": "Zoom behavior and key settings.",
+  "rondos.builtin_mods.description.accelerated_rendering": "GPU-accelerated entity, item, and text rendering.",
+  "rondos.builtin_mods.description.entity_culling": "Skips entities hidden behind solid geometry.",
+  "rondos.builtin_mods.description.ferrite_core": "Reduces memory use through data deduplication.",
+  "rondos.builtin_mods.description.wavey_capes": "Cape movement and simulation settings.",
+  "rondos.builtin_mods.description.lithium": "Optimizes game logic and world simulation.",
+  "rondos.builtin_mods.description.custom_skin_loader": "Loads skins and capes from additional services.",
+  "rondos.builtin_mods.description.imblocker": "Controls input method behavior by screen.",
+  "rondos.builtin_mods.description.language_reload": "Language fallback, search, and reload settings."
+}

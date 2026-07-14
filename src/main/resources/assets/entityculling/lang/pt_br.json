@@ -1,0 +1,26 @@
+{
+    "text.entityculling.title": "EntityCulling",
+    "key.category.minecraft.text.entityculling.title": "EntityCulling",
+    "key.entityculling.toggle": "Altern芒ncia da depura莽茫o do culling",
+    "key.entityculling.toggleBoxes": "Mostrar caixas de culling",
+    "text.entityculling.tab.general_options": "Geral",
+    "text.entityculling.tab.tick_culling": "Ignorar Culling de Ticks",
+    "text.entityculling.tab.tick_culling.tooltip": "As entidades selecionadas nesta aba n茫o ter茫o seu m茅todo de tick otimizado quando ocultas. Isso pode ser 煤til para entidades que precisam de tick para determinadas funcionalidades, como barcos.",
+    "text.entityculling.tab.entity_culling": "Ignorar Entidades",
+    "text.entityculling.tab.entity_culling.tooltip": "As entidades selecionadas nesta aba n茫o ser茫o ocultas. Isso 茅 necess谩rio principalmente para entidades do lado do cliente ou entidades que precisam ser renderizadas independentemente de sua visibilidade.",
+    "text.entityculling.tab.block_entity_culling": "Ignorar Bloco-entidades",
+    "text.entityculling.tab.block_entity_culling.tooltip": "Os bloco-entidades selecionados nesta aba n茫o ser茫o ocultos. Isso 茅 necess谩rio principalmente para bloco-entidades que precisam ser renderizados independentemente de sua visibilidade.",
+    "text.entityculling.renderNametagsThroughWalls": "Renderizar etiquetas atrav茅s das paredes",
+    "text.entityculling.renderNametagsThroughWalls.tooltip": "Quando desativado, as entidades ocultas n茫o ter茫o suas etiquetas renderizadas atrav茅s das paredes.",
+    "text.entityculling.tickCulling": "Culling de tick",
+    "text.entityculling.tickCulling.tooltip": "Quando ativado, as entidades que s茫o ocultas n茫o ter茫o ticks. Isso pode melhorar o desempenho em alguns casos, mas pode causar problemas com certos mods. Considere as op莽玫es de controle mais precisas na outra aba.",
+    "text.entityculling.disableF3": "Desativar a informa莽茫o de depura莽茫o no F3",
+    "text.entityculling.disableF3.tooltip": "Quando ativado, a informa莽茫o de depura莽茫o no F3 n茫o mostrar谩 informa莽玫es de culling.",
+    "text.entityculling.skipEntityCulling": "Ignorar culling de entidades",
+    "text.entityculling.skipEntityCulling.tooltip": "Quando ativado, o culling de entidades ser谩 totalmente ignorado. Isso pode ser 煤til para depura莽茫o ou quando voc锚 deseja desativar o culling temporariamente.",
+    "text.entityculling.skipBlockEntityCulling": "Ignorar culling de bloco-entidades",
+    "text.entityculling.skipBlockEntityCulling.tooltip": "Quando ativado, o culling de bloco-entidades ser谩 totalmente ignorado. Isso pode ser 煤til para depura莽茫o ou quando voc锚 deseja desativar o culling temporariamente.",
+    "text.entityculling.blockEntityFrustumCulling": "Culling frustum de bloco-entidades",
+    "text.entityculling.blockEntityFrustumCulling.tooltip": "Quando ativado, a extra莽茫o do estado do bloco-entidade ser谩 selecionada com base no frustum de vis茫o da c芒mera. Isso pode melhorar o desempenho caso seu modloader/outro mod ainda n茫o fa莽a isso."
+}
+

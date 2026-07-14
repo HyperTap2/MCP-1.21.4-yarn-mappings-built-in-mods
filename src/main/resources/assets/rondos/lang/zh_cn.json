@@ -1,0 +1,23 @@
+{
+  "rondos.builtin_mods.button": "内置模组",
+  "rondos.builtin_mods.title": "内置模组",
+  "rondos.builtin_mods.search": "搜索内置模组...",
+  "rondos.builtin_mods.configure": "配置",
+  "rondos.builtin_mods.configurable": "可配置",
+  "rondos.builtin_mods.not_configurable": "无配置界面",
+  "rondos.builtin_mods.narration": "%1$s。%2$s。%3$s",
+  "rondos.builtin_mods.description.sodium": "渲染性能优化与视频设置。",
+  "rondos.builtin_mods.description.sodium_extra": "集成在 Sodium 中的额外视觉与渲染设置。",
+  "rondos.builtin_mods.description.iris": "光影包管理与光影选项。",
+  "rondos.builtin_mods.description.viafabricplus": "协议兼容与游戏版本设置。",
+  "rondos.builtin_mods.description.continuity": "连接纹理、发光纹理与自定义渲染层。",
+  "rondos.builtin_mods.description.zoomify": "缩放行为与按键设置。",
+  "rondos.builtin_mods.description.accelerated_rendering": "使用 GPU 加速实体、物品与文本渲染。",
+  "rondos.builtin_mods.description.entity_culling": "跳过被实心方块遮挡的实体渲染。",
+  "rondos.builtin_mods.description.ferrite_core": "通过数据去重降低内存占用。",
+  "rondos.builtin_mods.description.wavey_capes": "披风运动与模拟设置。",
+  "rondos.builtin_mods.description.lithium": "优化游戏逻辑与世界模拟。",
+  "rondos.builtin_mods.description.custom_skin_loader": "从额外的皮肤服务加载皮肤与披风。",
+  "rondos.builtin_mods.description.imblocker": "按界面控制输入法行为。",
+  "rondos.builtin_mods.description.language_reload": "语言回退、搜索与重载设置。"
+}

@@ -1,0 +1,20 @@
+package net.minecraft.client.realms;
+
+import java.net.Proxy;
+import org.jetbrains.annotations.Nullable;
+
+public class RealmsClientConfig {
+   @Nullable
+   private static Proxy proxy;
+
+   @Nullable
+   public static Proxy getProxy() {
+      return proxy;
+   }
+
+   public static void setProxy(Proxy proxy) {
+      if (RealmsClientConfig.proxy == null) {
+         RealmsClientConfig.proxy = proxy;
+      }
+   }
+}

@@ -1,0 +1,8 @@
+{
+  "imblocker.settings": "輸入法設定",
+  "imblocker.screenWhitelist": "介面白名單",
+  "imblocker.screenBlacklist": "介面黑名單",
+  "imblocker.inputWhitelist": "輸入框白名單",
+  "imblocker.inputBlacklist": "輸入框黑名單",
+  "imblocker.recoverScreens": "記錄未知介面：%s"
+}

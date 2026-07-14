@@ -1,0 +1,18 @@
+package net.minecraft.client.render.entity;
+
+import net.minecraft.client.render.entity.model.EntityModelLayers;
+import net.minecraft.client.render.entity.state.GuardianEntityRenderState;
+import net.minecraft.util.Identifier;
+
+public class ElderGuardianEntityRenderer extends GuardianEntityRenderer {
+   public static final Identifier TEXTURE = Identifier.ofVanilla("textures/entity/guardian_elder.png");
+
+   public ElderGuardianEntityRenderer(EntityRendererFactory.Context context) {
+      super(context, 1.2F, EntityModelLayers.ELDER_GUARDIAN);
+   }
+
+   @Override
+   public Identifier getTexture(GuardianEntityRenderState guardianEntityRenderState) {
+      return TEXTURE;
+   }
+}

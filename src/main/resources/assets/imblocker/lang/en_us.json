@@ -1,0 +1,8 @@
+{
+  "imblocker.settings": "Input Method Settings",
+  "imblocker.screenWhitelist": "Screen whitelist",
+  "imblocker.screenBlacklist": "Screen blacklist",
+  "imblocker.inputWhitelist": "Input field whitelist",
+  "imblocker.inputBlacklist": "Input field blacklist",
+  "imblocker.recoverScreens": "Record unknown screens: %s"
+}

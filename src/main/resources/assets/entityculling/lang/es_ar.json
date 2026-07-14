@@ -1,0 +1,26 @@
+{
+    "text.entityculling.title": "EntityCulling",
+    "key.category.minecraft.text.entityculling.title": "EntityCulling",
+    "key.entityculling.toggle": "Alternar depuraci贸n de culling",
+    "key.entityculling.toggleBoxes": "Mostrar cajas de culling",
+    "text.entityculling.tab.general_options": "General",
+    "text.entityculling.tab.tick_culling": "Saltar culling de ticks",
+    "text.entityculling.tab.tick_culling.tooltip": "Las entidades seleccionadas en esta pesta帽a no optimizar谩n su m茅todo de 'tick' al ser ocultadas. 脷til para entidades que necesitan actualizarse constantemente, como los botes.",
+    "text.entityculling.tab.entity_culling": "Saltar entidades",
+    "text.entityculling.tab.entity_culling.tooltip": "Las entidades seleccionadas ac谩 no se ocultar谩n en absoluto. Esto sirve principalmente para entidades del lado del cliente o que deben renderizarse siempre, aunque no se vean.",
+    "text.entityculling.tab.block_entity_culling": "Saltar bloques-entidad",
+    "text.entityculling.tab.block_entity_culling.tooltip": "Los bloques-entidad seleccionados no se ocultar谩n nunca. 脷til para los que deben verse siempre, sin importar visibilidad.",
+    "text.entityculling.renderNametagsThroughWalls": "Mostrar nombres a trav茅s de paredes",
+    "text.entityculling.renderNametagsThroughWalls.tooltip": "Si est谩 desactivado, las entidades ocultas no mostrar谩n su nombre a trav茅s de las paredes.",
+    "text.entityculling.tickCulling": "Ocultar ticks",
+    "text.entityculling.tickCulling.tooltip": "Si est谩 activado, las entidades ocultas no ejecutar谩n sus ticks. Puede mejorar el rendimiento, pero podr铆a causar problemas con algunos mods. Revis谩 las opciones m谩s espec铆ficas en la otra pesta帽a.",
+    "text.entityculling.disableF3": "Desactivar info de F3",
+    "text.entityculling.disableF3.tooltip": "Al activarlo, la info de depuraci贸n de F3 no mostrar谩 datos de culling.",
+    "text.entityculling.skipEntityCulling": "Desactivar ocultamiento de entidades",
+    "text.entityculling.skipEntityCulling.tooltip": "Desactiva por completo el ocultamiento de entidades. 脷til para pruebas o si quer茅s desactivarlo temporalmente.",
+    "text.entityculling.skipBlockEntityCulling": "Desactivar ocultamiento de bloques-entidad",
+    "text.entityculling.skipBlockEntityCulling.tooltip": "Desactiva por completo el ocultamiento de bloques-entidad. 脷til para depurar o desactivar temporalmente el sistema.",
+    "text.entityculling.blockEntityFrustumCulling": "Culling de entidades de bloque por frustum",
+    "text.entityculling.blockEntityFrustumCulling.tooltip": "Cuando est谩 activado, la extracci贸n del estado de las entidades de bloque ser谩 filtrada seg煤n el frustum de la c谩mara. Esto puede mejorar el rendimiento en caso de que tu cargador de mods u otro mod no lo haga ya."
+}
+

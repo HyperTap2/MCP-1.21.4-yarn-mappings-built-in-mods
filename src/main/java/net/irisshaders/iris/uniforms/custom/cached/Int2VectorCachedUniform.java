@@ -1,0 +1,32 @@
+package net.irisshaders.iris.uniforms.custom.cached;
+
+import java.util.function.Supplier;
+import kroppeb.stareval.function.FunctionReturn;
+import net.irisshaders.iris.gl.IrisRenderSystem;
+import net.irisshaders.iris.gl.uniform.UniformUpdateFrequency;
+import net.irisshaders.iris.parsing.VectorType;
+import org.joml.Vector2i;
+
+public class Int2VectorCachedUniform extends VectorCachedUniform<Vector2i> {
+   public Int2VectorCachedUniform(String name, UniformUpdateFrequency updateFrequency, Supplier<Vector2i> supplier) {
+      super(name, updateFrequency, new Vector2i(), supplier);
+   }
+
+   protected void setFrom(Vector2i other) {
+      this.cached.set(other);
+   }
+
+   @Override
+   public void push(int location) {
+      IrisRenderSystem.uniform2i(location, this.cached.x, this.cached.y);
+   }
+
+   @Override
+   public void writeTo(FunctionReturn functionReturn) {
+      functionReturn.objectReturn = this.cached;
+   }
+
+   public VectorType getType() {
+      return VectorType.I_VEC2;
+   }
+}

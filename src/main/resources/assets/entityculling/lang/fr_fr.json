@@ -1,0 +1,28 @@
+{
+    "text.entityculling.title": "EntityCulling",
+    "key.category.minecraft.text.entityculling.title": "EntityCulling",
+    "key.entityculling.toggle": "Activer/D茅sactiver le d茅bogage du culling",
+    "key.entityculling.toggleBoxes": "Afficher les bo卯tes de culling",
+    "text.entityculling.tab.general_options": "G茅n茅ral",
+    "text.entityculling.tab.tick_culling": "Ignorer le culling des ticks",
+    "text.entityculling.tab.tick_culling.tooltip": "Les entit茅s s茅lectionn茅es dans cet onglet ne verront pas leur m茅thode de tick optimis茅e lorsqu'elles sont masqu茅es. Cela peut 锚tre utile pour des entit茅s qui doivent continuer 脿 se mettre 脿 jour, comme les bateaux.",
+    "text.entityculling.tab.entity_culling": "Ignorer les entit茅s",
+    "text.entityculling.tab.entity_culling.tooltip": "Les entit茅s s茅lectionn茅es dans cet onglet ne seront jamais masqu茅es. Ceci est principalement utile pour les entit茅s c么t茅 client ou celles qui doivent 锚tre rendues ind茅pendamment de leur visibilit茅.",
+    "text.entityculling.tab.block_entity_culling": "Ignorer les entit茅s de bloc",
+    "text.entityculling.tab.block_entity_culling.tooltip": "Les entit茅s de bloc s茅lectionn茅es dans cet onglet ne seront jamais masqu茅es. Ceci est principalement utile pour celles qui doivent 锚tre rendues ind茅pendamment de leur visibilit茅.",
+    "text.entityculling.renderNametagsThroughWalls": "Afficher les 茅tiquettes 脿 travers les murs",
+    "text.entityculling.renderNametagsThroughWalls.tooltip": "Lorsque d茅sactiv茅, les entit茅s masqu茅es n'afficheront pas leur 茅tiquette 脿 travers les murs.",
+    "text.entityculling.tickCulling": "Culling des ticks",
+    "text.entityculling.tickCulling.tooltip": "Lorsque activ茅, les entit茅s masqu茅es ne seront plus mises 脿 jour. Cela peut am茅liorer les performances dans certains cas, mais peut provoquer des probl猫mes avec certains mods. Consultez les options de contr么le avanc茅 dans les autres onglets.",
+    "text.entityculling.disableF3": "D茅sactiver les informations de d茅bogage F3",
+    "text.entityculling.disableF3.tooltip": "Lorsque activ茅, les informations de d茅bogage (F3) n'afficheront plus les donn茅es li茅es au culling.",
+    "text.entityculling.skipEntityCulling": "D茅sactiver le culling des entit茅s",
+    "text.entityculling.skipEntityCulling.tooltip": "Lorsque activ茅, le culling des entit茅s sera compl猫tement d茅sactiv茅. Utile pour le d茅bogage ou pour d茅sactiver temporairement cette optimisation.",
+    "text.entityculling.skipBlockEntityCulling": "D茅sactiver le culling des entit茅s de bloc",
+    "text.entityculling.skipBlockEntityCulling.tooltip": "Lorsque activ茅, le culling des entit茅s de bloc sera compl猫tement d茅sactiv茅. Utile pour le d茅bogage ou pour d茅sactiver temporairement cette optimisation.",
+    "text.entityculling.blockEntityFrustumCulling": "Culling des entit茅s de bloc par frustum",
+    "text.entityculling.blockEntityFrustumCulling.tooltip": "Lorsque activ茅, l'extraction de l'茅tat des entit茅s de bloc sera filtr茅e selon le frustum de la cam茅ra. Cela peut am茅liorer les performances si votre modloader ou un autre mod ne le fait pas d茅j脿.",
+    "text.entityculling.forceDisplayCulling": "Forcer le culling des entit茅s d'affichage",
+    "text.entityculling.forceDisplayCulling.tooltip": "Lorsque activ茅, les entit茅s d'affichage sans bo卯te englobante recevront une bo卯te par d茅faut pour le culling. Cela peut am茅liorer les performances sur certaines cartes ou serveurs mal configur茅s, mais peut entra卯ner des probl猫mes visuels."
+}
+

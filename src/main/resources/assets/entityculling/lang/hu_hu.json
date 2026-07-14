@@ -1,0 +1,23 @@
+{
+    "text.entityculling.title": "EntityCulling",
+    "key.entityculling.toggle": "Hibakeres茅s selejtez茅s v谩lt谩sa",
+    "key.entityculling.toggleBoxes": "Mutatja a selejtez茅si hat谩rokat",
+    "text.entityculling.tab.general_options": "脕lt.",
+    "text.entityculling.tab.tick_culling": "Tick kihagy.",
+    "text.entityculling.tab.tick_culling.tooltip": "A kiv谩lasztott entit谩sok ebben a f眉lben nem lesznek optimaliz谩lva a tick met贸dusukban, amikor selejtezik 艖ket. Ez hasznos lehet olyan entit谩sok sz谩m谩ra, amelyeknek tickelni眉k kell bizonyos funkci贸khoz, p茅ld谩ul cs贸nakok eset茅ben.",
+    "text.entityculling.tab.entity_culling": "Ent. kihagy.",
+    "text.entityculling.tab.entity_culling.tooltip": "A kiv谩lasztott entit谩sok ebben a f眉lben nem lesznek selejtezve. Ez f艖leg kliensoldali entit谩sokhoz vagy olyan entit谩sokhoz sz眉ks茅ges, amelyeknek l谩that贸s谩gukt贸l f眉ggetlen眉l meg kell jelenni眉k.",
+    "text.entityculling.tab.block_entity_culling": "Blokk ent. kihagy.",
+    "text.entityculling.tab.block_entity_culling.tooltip": "Blokk entit谩sok ebben a f眉lben nem lesznek selejtezve. Ez f艖leg olyan blokk entit谩sokhoz sz眉ks茅ges, amelyeknek l谩that贸s谩gukt贸l f眉ggetlen眉l meg kell jelenni眉k.",
+    "text.entityculling.renderNametagsThroughWalls": "N茅vc铆mk茅k megjelen铆t茅se falakon kereszt眉l",
+    "text.entityculling.renderNametagsThroughWalls.tooltip": "Ha ki van kapcsolva, a selejtezett entit谩sok n茅vc铆mk茅i nem lesznek megjelen铆tve a falakon kereszt眉l.",
+    "text.entityculling.tickCulling": "Tick selejtez茅s",
+    "text.entityculling.tickCulling.tooltip": "Ha be van kapcsolva, a selejtezett entit谩sok nem fognak tickelni. Ez bizonyos esetekben jav铆thatja a teljes铆tm茅nyt, de probl茅m谩kat okozhat bizonyos modokkal. Fontold meg a finomabb vez茅rl茅si lehet艖s茅geket a m谩sik f眉l枚n.",
+    "text.entityculling.disableF3": "F3 hibakeres茅si inform谩ci贸k letilt谩sa",
+    "text.entityculling.disableF3.tooltip": "Ha be van kapcsolva, a F3 hibakeres茅si inform谩ci贸k nem fogj谩k megjelen铆teni a selejtez茅si inform谩ci贸kat.",
+    "text.entityculling.skipEntityCulling": "Entit谩s selejtez茅s kihagy谩sa",
+    "text.entityculling.skipEntityCulling.tooltip": "Ha be van kapcsolva, az entit谩sok selejtez茅se teljesen ki lesz hagyva. Ez hasznos lehet hibakeres茅shez vagy amikor ideiglenesen szeretn茅d letiltani a selejtez茅st.",
+    "text.entityculling.skipBlockEntityCulling": "Blokk entit谩s selejtez茅s kihagy谩sa",
+    "text.entityculling.skipBlockEntityCulling.tooltip": "Ha be van kapcsolva, a blokk entit谩sok selejtez茅se teljesen ki lesz hagyva. Ez hasznos lehet hibakeres茅shez vagy amikor ideiglenesen szeretn茅d letiltani a selejtez茅st."
+}
+

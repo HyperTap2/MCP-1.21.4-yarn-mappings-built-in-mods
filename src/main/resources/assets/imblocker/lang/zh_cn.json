@@ -1,0 +1,8 @@
+{
+  "imblocker.settings": "输入法设置",
+  "imblocker.screenWhitelist": "界面白名单",
+  "imblocker.screenBlacklist": "界面黑名单",
+  "imblocker.inputWhitelist": "输入框白名单",
+  "imblocker.inputBlacklist": "输入框黑名单",
+  "imblocker.recoverScreens": "记录未知界面：%s"
+}

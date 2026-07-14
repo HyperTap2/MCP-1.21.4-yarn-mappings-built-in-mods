@@ -1,0 +1,91 @@
+{
+  "zoomify.key.zoom": "Zoom",
+  "zoomify.key.gui": "Abrir GUI",
+  "zoomify.key.category": "Zoomify",
+
+
+  "zoomify.gui.title": "Zoomify",
+
+  "yacl3.config.zoomify.category.behaviour": "Comportamento",
+  "yacl3.config.zoomify.category.behaviour.group.basic.option.initialZoom": "Zoom Inicial",
+  "yacl3.config.zoomify.category.behaviour.group.basic.option.initialZoom.description.1": "O nível de zoom quando você aperta a tecla primeiro.",
+  "yacl3.config.zoomify.category.behaviour.group.basic.option.zoomInTime": "Tempo para aumentar o Zoom",
+  "yacl3.config.zoomify.category.behaviour.group.basic.option.zoomInTime.description.1": "Quantos segundos leva para aumentar o Zoom.",
+  "yacl3.config.zoomify.category.behaviour.group.basic.option.zoomOutTime": "Tempo para diminuir o Zoom",
+  "yacl3.config.zoomify.category.behaviour.group.basic.option.zoomOutTime.description.1": "Quantos segundos leva para diminuir o Zoom.",
+  "yacl3.config.zoomify.category.behaviour.group.basic.option.zoomInTransition": "Transição de entrada do zoom",
+  "yacl3.config.zoomify.category.behaviour.group.basic.option.zoomInTransition.description.1": "O tipo de transição usado na entrada do zoom.",
+  "yacl3.config.zoomify.category.behaviour.group.basic.option.zoomOutTransition": "Transição de saída do zoom",
+  "yacl3.config.zoomify.category.behaviour.group.basic.option.zoomOutTransition.description.1": "O tipo de transição usado na saída do zoom.",
+
+  "yacl3.config.zoomify.category.behaviour.group.scrolling": "Rolagem",
+  "yacl3.config.zoomify.category.behaviour.group.scrolling.option.scrollZoom": "Habilitar Zoom de Rolagem",
+  "yacl3.config.zoomify.category.behaviour.group.scrolling.option.scrollZoom.description.1": "Permitir você dar zoom com a roda do mouse.",
+  "yacl3.config.zoomify.category.behaviour.group.scrolling.option.scrollZoomAmount": "Quantidade de Zoom de Rolagem",
+  "yacl3.config.zoomify.category.behaviour.group.scrolling.option.scrollZoomAmount.description.1": "O divisor adicional do FOV por etapa de rolagem.",
+  "yacl3.config.zoomify.category.behaviour.group.scrolling.option.scrollZoomSmoothness": "Suavidade do Zoom de Rolagem",
+  "yacl3.config.zoomify.category.behaviour.group.scrolling.option.scrollZoomSmoothness.description.1": "Quão suave/quanto tempo leva para usar o Zoom de Rolagem.",
+  "yacl3.config.zoomify.category.behaviour.group.scrolling.option.smoothScrollZoom": "Transição suave",
+  "yacl3.config.zoomify.category.behaviour.group.scrolling.option.smoothScrollZoom.description.1": "Faz o zoom aumentar e diminuir suavemente.",
+
+  "yacl3.config.zoomify.category.controls": "Controles",
+  "yacl3.config.zoomify.category.controls.root.option.zoomKeyBehaviour": "Comportamento da telca de Zoom",
+  "yacl3.config.zoomify.category.controls.root.option.zoomKeyBehaviour.description.1": "O comportamento da tecla de zoom.",
+  "yacl3.config.zoomify.category.controls.root.option.relativeSensitivity": "Sensibilidade relativa",
+  "yacl3.config.zoomify.category.controls.root.option.relativeSensitivity.description.1": "Controla o gradiente da sensibilidade baseado no nível de zoom.",
+  "yacl3.config.zoomify.category.controls.root.option.relativeViewBobbing": "Balançado Relativo da Visão",
+  "yacl3.config.zoomify.category.controls.root.option.relativeViewBobbing.description.1": "Faz o balançar da tela menos duro com o Zoom ativo.",
+  "yacl3.config.zoomify.category.controls.root.option.cinematicCamera": "Câmera cinemática",
+  "yacl3.config.zoomify.category.controls.root.option.cinematicCamera.description.1": "Faz a câmera se mover suavemente no zoom.",
+
+  "yacl3.config.zoomify.category.behaviour.group.basic.option.affectHandFov": "Afetar o Campo de Visão da Mão",
+  "yacl3.config.zoomify.category.behaviour.group.basic.option.affectHandFov.description.1": "Com zoom, mantém o campo de visão da mão normal, enquanto o mundo aumenta.",
+  "yacl3.config.zoomify.category.behaviour.group.scrolling.option.retainZoomSteps": "Lembrar Etapas de Zoom",
+  "yacl3.config.zoomify.category.behaviour.group.scrolling.option.retainZoomSteps.description.1": "Mantém a quantia de zoom entre entrada e saída de zoom.",
+
+  "yacl3.config.zoomify.category.behaviour.group.scrolling.option.linearLikeSteps": "Etapas Quase Lineares",
+  "yacl3.config.zoomify.category.behaviour.group.scrolling.option.linearLikeSteps.description.1": "Aplica uma curva aos incrementos para eles parecerem lineares.",
+
+  "yacl3.config.zoomify.category.misc.group.presets": "Padronizações",
+  "zoomify.gui.preset.default": "Padrão",
+  "zoomify.gui.preset.optifine": "OptiFine",
+  "zoomify.gui.preset.ok_zoomer": "OK Zoomer",
+  "yacl3.config.zoomify.category.misc.group.presets.presetBtn.button": "Aplicar Padronização",
+  "yacl3.config.zoomify.category.misc.group.presets.presetBtn.description": "Faz o Zoomify se comportar como %s.",
+  "yacl3.config.zoomify.category.misc.group.presets.label.applyWarning": "Pressionar o botão vai aplicar as mudanças instantaneamente!",
+
+  "zoomify.transition.instant": "Instantâneo",
+  "zoomify.transition.linear": "Linear",
+  "zoomify.transition.ease_in_sine": "Entrada Suave Seno",
+  "zoomify.transition.ease_out_sine": "Saída Suave Seno",
+  "zoomify.transition.ease_in_out_sine": "Entrada Saída Suave Seno",
+  "zoomify.transition.ease_in_quad": "Entrada Suave Quadrática",
+  "zoomify.transition.ease_out_quad": "Saída Suave Quadrática",
+  "zoomify.transition.ease_in_out_quad": "Entrada Saída Suave Quadrática",
+  "zoomify.transition.ease_in_cubic": "Entrada Suave Cúbica",
+  "zoomify.transition.ease_out_cubic": "Saída Suave Cúbica",
+  "zoomify.transition.ease_in_out_cubic": "Entrada Saída Suave Cúbica",
+  "zoomify.transition.ease_in_exp": "Entrada Suave Exponencial",
+  "zoomify.transition.ease_out_exp": "Saída Suave Exponencial",
+  "zoomify.transition.ease_in_out_exp": "Entrada Saída Suave Exponencial",
+
+
+  "zoomify.zoom_key_behaviour.hold": "Segurar",
+  "zoomify.zoom_key_behaviour.toggle": "Alternar",
+
+
+  "zoomify.spyglass_behaviour.combine": "Combinar",
+  "zoomify.spyglass_behaviour.override": "Substituir",
+  "zoomify.spyglass_behaviour.only_zoom_while_holding": "Permitir Enquanto Segurando",
+  "zoomify.spyglass_behaviour.only_zoom_while_carrying": "Permitir Enquanto Carregando",
+
+  "zoomify.overlay_visibility.never": "Nunca",
+  "zoomify.overlay_visibility.holding": "Segurando",
+  "zoomify.overlay_visibility.carrying": "Carregando",
+  "zoomify.overlay_visibility.always": "Sempre",
+
+  "zoomify.sound_behaviour.never": "Nunca",
+  "zoomify.sound_behaviour.always": "Sempre",
+  "zoomify.sound_behaviour.only_spyglass": "Apenas Segurando Luneta",
+  "zoomify.sound_behaviour.with_overlay": "Corresponder Sobreposição"
+}

@@ -1,0 +1,24 @@
+package net.minecraft.client.network;
+
+import com.mojang.logging.LogUtils;
+import java.net.InetAddress;
+import java.net.InetSocketAddress;
+import java.net.UnknownHostException;
+import java.util.Optional;
+import org.slf4j.Logger;
+
+@FunctionalInterface
+public interface AddressResolver {
+   Logger LOGGER = LogUtils.getLogger();
+   AddressResolver DEFAULT = address -> {
+      try {
+         InetAddress inetAddress = InetAddress.getByName(address.getAddress());
+         return Optional.of(Address.create(new InetSocketAddress(inetAddress, address.getPort())));
+      } catch (UnknownHostException unknownHostException) {
+         LOGGER.debug("Couldn't resolve server {} address", address.getAddress(), unknownHostException);
+         return Optional.empty();
+      }
+   };
+
+   Optional<Address> resolve(ServerAddress address);
+}

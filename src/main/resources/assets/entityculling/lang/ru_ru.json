@@ -1,0 +1,24 @@
+{
+    "modmenu.descriptionTranslation.entityculling": "袦芯写, 懈褋锌芯谢褜蟹褍褞褖懈泄 褌褉邪褋褋懈褉芯胁泻褍 锌褍褌械泄 写谢褟 芯锌褉械写械谢械薪懈褟 胁懈写懈屑芯褋褌懈 褋褍褖薪芯褋褌械泄 懈 斜谢芯褔薪褘褏 褋褍褖薪芯褋褌械泄, 褋泻褉褘褌褘褏 蟹邪 斜谢芯泻邪屑懈.",
+    "text.entityculling.title": "EntityCulling",
+    "key.entityculling.toggle": "袩械褉械泻谢褞褔懈褌褜 芯褌褋械褔械薪懈械 (芯褌谢邪写泻邪)",
+    "key.entityculling.toggleBoxes": "袩芯泻邪蟹邪褌褜 泻芯褉芯斜泻懈 芯褌褋械褔械薪懈褟",
+    "text.entityculling.tab.general_options": "袨褋薪芯胁薪褘械",
+    "text.entityculling.tab.tick_culling": "袩褉芯锌褍褋泻 芯褌褋械褔械薪懈褟 锌褉懈 芯斜薪芯胁谢械薪懈懈",
+    "text.entityculling.tab.tick_culling.tooltip": "袙褘斜褉邪薪薪褘械 褋褍褖薪芯褋褌懈 薪械 斜褍写褍褌 锌褉芯锌褍褋泻邪褌褜 芯斜薪芯胁谢械薪懈械 褋芯褋褌芯褟薪懈褟 锌褉懈 芯褌褋械褔械薪懈懈. 袩芯谢械蟹薪芯 写谢褟 芯斜褗械泻褌芯胁, 褌褉械斜褍褞褖懈褏 锌芯褋褌芯褟薪薪芯谐芯 芯斜薪芯胁谢械薪懈褟 (薪邪锌褉懈屑械褉, 谢芯写泻懈).",
+    "text.entityculling.tab.entity_culling": "袠褋泻谢褞褔懈褌褜 褋褍褖薪芯褋褌懈",
+    "text.entityculling.tab.entity_culling.tooltip": "袙褘斜褉邪薪薪褘械 褋褍褖薪芯褋褌懈 薪懈泻芯谐写邪 薪械 斜褍写褍褌 芯褌褋械泻邪褌褜褋褟. 袛谢褟 泻谢懈械薪褌褋泻懈褏 芯斜褗械泻褌芯胁 懈谢懈 泻褉懈褌懈褔械褋泻懈 胁邪卸薪褘褏 褋褍褖薪芯褋褌械泄.",
+    "text.entityculling.tab.block_entity_culling": "袠褋泻谢褞褔懈褌褜 斜谢芯褔薪褘械 褋褍褖薪芯褋褌懈",
+    "text.entityculling.tab.block_entity_culling.tooltip": "袙褘斜褉邪薪薪褘械 斜谢芯褔薪褘械 褋褍褖薪芯褋褌懈 薪懈泻芯谐写邪 薪械 斜褍写褍褌 芯褌褋械泻邪褌褜褋褟. 袛谢褟 芯斜褗械泻褌芯胁, 褌褉械斜褍褞褖懈褏 锌芯褋褌芯褟薪薪芯泄 芯褌褉懈褋芯胁泻懈.",
+    "text.entityculling.renderNametagsThroughWalls": "袩芯泻邪蟹褘胁邪褌褜 懈屑械薪邪 褋泻胁芯蟹褜 褋褌械薪褘",
+    "text.entityculling.renderNametagsThroughWalls.tooltip": "袨褌泻谢褞褔邪械褌 芯褌芯斜褉邪卸械薪懈械 懈屑褢薪 薪邪写 芯褌褋械褔褢薪薪褘屑懈 褋褍褖薪芯褋褌褟屑懈 褋泻胁芯蟹褜 褋褌械薪褘.",
+    "text.entityculling.tickCulling": "袨褌褋械褔械薪懈械 芯斜薪芯胁谢械薪懈泄",
+    "text.entityculling.tickCulling.tooltip": "袨褌褋械褔褢薪薪褘械 褋褍褖薪芯褋褌懈 锌褉芯锌褍褋泻邪褞褌 芯斜薪芯胁谢械薪懈械 褋芯褋褌芯褟薪懈褟. 校谢褍褔褕邪械褌 锌褉芯懈蟹胁芯写懈褌械谢褜薪芯褋褌褜, 薪芯 屑芯卸械褌 胁褘蟹胁邪褌褜 锌褉芯斜谢械屑褘 褋 薪械泻芯褌芯褉褘屑懈 屑芯写邪屑懈.",
+    "text.entityculling.disableF3": "小泻褉褘褌褜 芯褌谢邪写芯褔薪褍褞 懈薪褎芯褉屑邪褑懈褞",
+    "text.entityculling.disableF3.tooltip": "袨褌泻谢褞褔邪械褌 芯褌芯斜褉邪卸械薪懈械 懈薪褎芯褉屑邪褑懈懈 芯斜 芯褌褋械褔械薪懈懈 胁 屑械薪褞 F3.",
+    "text.entityculling.skipEntityCulling": "袨褌泻谢褞褔懈褌褜 芯褌褋械褔械薪懈械 褋褍褖薪芯褋褌械泄",
+    "text.entityculling.skipEntityCulling.tooltip": "袩芯谢薪芯褋褌褜褞 芯褌泻谢褞褔邪械褌 芯褌褋械褔械薪懈械 褋褍褖薪芯褋褌械泄 (写谢褟 芯褌谢邪写泻懈 懈谢懈 胁褉械屑械薪薪芯谐芯 芯褌泻谢褞褔械薪懈褟).",
+    "text.entityculling.skipBlockEntityCulling": "袨褌泻谢褞褔懈褌褜 芯褌褋械褔械薪懈械 斜谢芯褔薪褘褏 褋褍褖薪芯褋褌械泄",
+    "text.entityculling.skipBlockEntityCulling.tooltip": "袩芯谢薪芯褋褌褜褞 芯褌泻谢褞褔邪械褌 芯褌褋械褔械薪懈械 斜谢芯褔薪褘褏 褋褍褖薪芯褋褌械泄 (写谢褟 芯褌谢邪写泻懈)."
+}
+

@@ -1,0 +1,28 @@
+{
+    "text.entityculling.title": "EntityCulling",
+    "key.category.minecraft.text.entityculling.title": "EntityCulling",
+    "key.entityculling.toggle": "Prze艂膮cz debugowy culling",
+    "key.entityculling.toggleBoxes": "Poka偶 bounding boxy",
+    "text.entityculling.tab.general_options": "Og贸lne",
+    "text.entityculling.tab.tick_culling": "Pomi艅 Tick Culling",
+    "text.entityculling.tab.tick_culling.tooltip": "Byty wybrane w tej zak艂adce nie b臋d膮 mia艂y zoptymalizowanego tickowania, gdy zostan膮 odrzucone przez culling. Mo偶e to by膰 przydatne w przypadku byt贸w, kt贸re musz膮 tickowa膰 ze wzgl臋du na okre艣lone funkcje, takie jak 艂贸dki.",
+    "text.entityculling.tab.entity_culling": "Pomi艅 byty",
+    "text.entityculling.tab.entity_culling.tooltip": "Byty wybrane w tej zak艂adce nie b臋d膮 w og贸le odrzucane przez culling. Jest to g艂贸wnie potrzebne dla byt贸w po stronie klienta lub byt贸w, kt贸re musz膮 by膰 renderowane niezale偶nie od widoczno艣ci.",
+    "text.entityculling.tab.block_entity_culling": "Pomi艅 byty blokowe",
+    "text.entityculling.tab.block_entity_culling.tooltip": "Byty blokowe wybrane w tej zak艂adce nie b臋d膮 w og贸le odrzucane przez culling. Jest to g艂贸wnie potrzebne dla byt贸w blokowych, kt贸re musz膮 by膰 renderowane niezale偶nie od widoczno艣ci.",
+    "text.entityculling.renderNametagsThroughWalls": "Renderuj nazwy przez 艣ciany",
+    "text.entityculling.renderNametagsThroughWalls.tooltip": "Gdy jest wy艂膮czone, odrzucone byty nie b臋d膮 mia艂y renderowanych nazw przez 艣ciany.",
+    "text.entityculling.tickCulling": "Tick culling",
+    "text.entityculling.tickCulling.tooltip": "Gdy jest w艂膮czone, byty odrzucone przez culling nie b臋d膮 tickowa膰. Mo偶e to poprawi膰 wydajno艣膰 w niekt贸rych przypadkach, ale mo偶e te偶 powodowa膰 problemy z niekt贸rymi modami. Rozwa偶 dok艂adniejsze opcje sterowania w innej zak艂adce.",
+    "text.entityculling.disableF3": "Wy艂膮cz informacje debugowe F3",
+    "text.entityculling.disableF3.tooltip": "Gdy jest w艂膮czone, debugowe informacje F3 nie b臋d膮 pokazywa膰 informacji o cullingu.",
+    "text.entityculling.skipEntityCulling": "Pomi艅 culling byt贸w",
+    "text.entityculling.skipEntityCulling.tooltip": "Gdy jest w艂膮czone, culling byt贸w zostanie ca艂kowicie pomini臋ty. Mo偶e to by膰 przydatne do debugowania lub gdy chcesz tymczasowo wy艂膮czy膰 culling.",
+    "text.entityculling.skipBlockEntityCulling": "Pomi艅 culling byt贸w blokowych",
+    "text.entityculling.skipBlockEntityCulling.tooltip": "Gdy jest w艂膮czone, culling byt贸w blokowych zostanie ca艂kowicie pomini臋ty. Mo偶e to by膰 przydatne do debugowania lub gdy chcesz tymczasowo wy艂膮czy膰 culling.",
+    "text.entityculling.blockEntityFrustumCulling": "Frustum culling byt贸w blokowych",
+    "text.entityculling.blockEntityFrustumCulling.tooltip": "Gdy jest w艂膮czone, ekstrakcja stanu byt贸w blokowych b臋dzie odrzucana na podstawie frustum kamery. Mo偶e to poprawi膰 wydajno艣膰, je艣li Tw贸j modloader lub inny mod nie robi tego ju偶 wcze艣niej.",
+    "text.entityculling.forceDisplayCulling": "Wymu艣 culling display",
+    "text.entityculling.forceDisplayCulling.tooltip": "Gdy jest w艂膮czone, byty typu display bez bounding boxa otrzymaj膮 domy艣lny bounding box na potrzeby cullingu. Mo偶e to poprawi膰 wydajno艣膰 na mapach lub serwerach, kt贸re nie konfiguruj膮 poprawnie swoich byt贸w display, ale mo偶e powodowa膰 problemy wizualne."
+}
+

@@ -1,0 +1,31 @@
+# Gradle output and local caches
+.gradle/
+build/
+out/
+
+# Runtime data
+logs/
+run/*
+!run/.gitkeep
+
+# Local backups and temporary worktrees
+backup*/
+backup*.zip
+.codex-upstream-*/
+
+# IntelliJ user state
+.idea/
+
+# OS and JVM artifacts
+.DS_Store
+Thumbs.db
+hs_err_pid*
+replay_pid*
+*.bak
+*.old
+*.tmp
+*~
+
+# LLM
+CONTEXT.md
+/docs/

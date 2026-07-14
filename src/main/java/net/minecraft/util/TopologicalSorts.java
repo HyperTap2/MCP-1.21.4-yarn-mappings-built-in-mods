@@ -1,0 +1,34 @@
+package net.minecraft.util;
+
+import com.google.common.collect.ImmutableSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.function.Consumer;
+
+public final class TopologicalSorts {
+   private TopologicalSorts() {
+   }
+
+   public static <T> boolean sort(Map<T, Set<T>> successors, Set<T> visited, Set<T> visiting, Consumer<T> reversedOrderConsumer, T now) {
+      if (visited.contains(now)) {
+         return false;
+      }
+
+      if (visiting.contains(now)) {
+         return true;
+      }
+
+      visiting.add(now);
+
+      for (T object : successors.getOrDefault(now, ImmutableSet.of())) {
+         if (sort(successors, visited, visiting, reversedOrderConsumer, object)) {
+            return true;
+         }
+      }
+
+      visiting.remove(now);
+      visited.add(now);
+      reversedOrderConsumer.accept(now);
+      return false;
+   }
+}

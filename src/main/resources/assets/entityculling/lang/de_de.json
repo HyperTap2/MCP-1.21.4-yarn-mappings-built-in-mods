@@ -1,0 +1,28 @@
+{
+    "text.entityculling.title": "EntityCulling",
+    "key.category.minecraft.text.entityculling.title": "EntityCulling",
+    "key.entityculling.toggle": "Debug Culling umschalten",
+    "key.entityculling.toggleBoxes": "Culling-Boxen anzeigen",
+    "text.entityculling.tab.general_options": "Allgemein",
+    "text.entityculling.tab.tick_culling": "Tick-Culling 眉berspr.",
+    "text.entityculling.tab.tick_culling.tooltip": "In diesem Tab ausgew盲hlte Entit盲ten werden beim Culling nicht hinsichtlich ihrer Tick-Methode optimiert. Dies kann f眉r Entit盲ten n眉tzlich sein, die f眉r bestimmte Funktionen getickt werden m眉ssen, wie beispielsweise Boote.",
+    "text.entityculling.tab.entity_culling": "Entit盲ten 眉berspr.",
+    "text.entityculling.tab.entity_culling.tooltip": "In diesem Tab ausgew盲hlte Entit盲ten werden 眉berhaupt nicht verborgen. Dies ist haupts盲chlich f眉r clientseitige Entit盲ten oder Entit盲ten erforderlich, die unabh盲ngig von ihrer Sichtbarkeit gerendert werden m眉ssen.",
+    "text.entityculling.tab.block_entity_culling": "Block-Entit盲ten 眉berspr.",
+    "text.entityculling.tab.block_entity_culling.tooltip": "In diesem Tab ausgew盲hlte Block-Entit盲ten werden 眉berhaupt nicht verborgen. Dies ist haupts盲chlich f眉r Block-Entit盲ten erforderlich, die unabh盲ngig von ihrer Sichtbarkeit gerendert werden m眉ssen.",
+    "text.entityculling.renderNametagsThroughWalls": "Namensschilder durch W盲nde rendern",
+    "text.entityculling.renderNametagsThroughWalls.tooltip": "Wenn diese Option deaktiviert ist, werden die Namensschilder von verborgenen Entit盲ten nicht durch W盲nde angezeigt.",
+    "text.entityculling.tickCulling": "Tick-Culling",
+    "text.entityculling.tickCulling.tooltip": "Wenn diese Option aktiviert ist, werden verborgene Entit盲ten nicht getickt. Dies kann in einigen F盲llen die Leistung verbessern, aber bei bestimmten Mods zu Problemen f眉hren. Ziehe die detaillierteren Optionen im anderen Tab in Betracht.",
+    "text.entityculling.disableF3": "F3 Debug-Informationen deaktivieren",
+    "text.entityculling.disableF3.tooltip": "Wenn diese Option aktiviert ist, werden in den F3-Debug-Informationen keine Culling-Informationen angezeigt.",
+    "text.entityculling.skipEntityCulling": "Entit盲ten-Culling 眉berspringen",
+    "text.entityculling.skipEntityCulling.tooltip": "Wenn diese Option aktiviert ist, wird das Culling von Entit盲ten komplett 眉bersprungen. Das kann beim Debuggen oder wenn du Culling vor眉bergehend deaktivieren willst, n眉tzlich sein.",
+    "text.entityculling.skipBlockEntityCulling": "Block-Entit盲ten-Culling 眉berspringen",
+    "text.entityculling.skipBlockEntityCulling.tooltip": "Wenn diese Option aktiviert ist, wird das Culling von Block-Entit盲ten komplett 眉bersprungen. Das kann beim Debuggen oder wenn du Culling vor眉bergehend deaktivieren willst, n眉tzlich sein.",
+    "text.entityculling.blockEntityFrustumCulling": "Block-Entit盲ten-Frustum-Culling",
+    "text.entityculling.blockEntityFrustumCulling.tooltip": "Wenn diese Option aktiviert ist, wird die Extraktion des Block-Entity-Status basierend auf dem Sichtkegel der Kamera reduziert. Dies kann die Leistung verbessern, falls dein Modloader/eine andere Mod dies nicht bereits tut.",
+    "text.entityculling.forceDisplayCulling": "Anzeige-Entit盲ten-Culling erzwingen",
+    "text.entityculling.forceDisplayCulling.tooltip": "Wenn diese Option aktiviert ist, wird Anzeige-Entit盲ten ohne Begrenzungsrahmen ein Standardbegrenzungsrahmen zugewiesen, um sie zu verbergen. Dies kann die Leistung f眉r Maps/Server verbessern, deren Anzeige-Entit盲ten nicht korrekt konfiguriert sind, kann jedoch zu visuellen Problemen f眉hren."
+}
+
