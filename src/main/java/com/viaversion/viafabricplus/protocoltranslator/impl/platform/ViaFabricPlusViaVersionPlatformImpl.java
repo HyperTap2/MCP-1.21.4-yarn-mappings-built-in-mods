@@ -33,8 +33,8 @@ public final class ViaFabricPlusViaVersionPlatformImpl extends ViaVersionPlatfor
       platformDump.addProperty("target_version", ProtocolTranslator.getTargetVersion().toString());
       JsonArray mods = new JsonArray();
       JsonObject client = new JsonObject();
-      client.addProperty("id", "rondos-mcp");
-      client.addProperty("name", "Rondos MCP");
+      client.addProperty("id", "client-mcp");
+      client.addProperty("name", "Client MCP");
       client.addProperty("version", "1.0.0");
       mods.add(client);
       platformDump.add("mods", mods);

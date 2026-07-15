@@ -29,11 +29,11 @@ import org.jetbrains.annotations.Nullable;
 
 /** Central entry point for configuration screens provided by source-integrated mods. */
 public final class BuiltinModsScreen extends Screen {
-   private static final Text TITLE = Text.translatable("rondos.builtin_mods.title");
-   private static final Text SEARCH = Text.translatable("rondos.builtin_mods.search");
-   private static final Text CONFIGURE = Text.translatable("rondos.builtin_mods.configure");
-   private static final Text CONFIGURABLE = Text.translatable("rondos.builtin_mods.configurable").formatted(Formatting.GREEN);
-   private static final Text NOT_CONFIGURABLE = Text.translatable("rondos.builtin_mods.not_configurable").formatted(Formatting.GRAY);
+   private static final Text TITLE = Text.translatable("client.builtin_mods.title");
+   private static final Text SEARCH = Text.translatable("client.builtin_mods.search");
+   private static final Text CONFIGURE = Text.translatable("client.builtin_mods.configure");
+   private static final Text CONFIGURABLE = Text.translatable("client.builtin_mods.configurable").formatted(Formatting.GREEN);
+   private static final Text NOT_CONFIGURABLE = Text.translatable("client.builtin_mods.not_configurable").formatted(Formatting.GRAY);
    private static final List<BuiltinMod> MODS = List.of(
       configurable("sodium", "Sodium", SodiumOptionsGUI::createScreen),
       configurable("sodium_extra", "Sodium Extra", SodiumOptionsGUI::createSodiumExtraScreen),
@@ -132,7 +132,7 @@ public final class BuiltinModsScreen extends Screen {
    }
 
    private static Text description(String id) {
-      return Text.translatable("rondos.builtin_mods.description." + id);
+      return Text.translatable("client.builtin_mods.description." + id);
    }
 
    private static Screen createViaFabricPlusScreen(Screen parent) {
@@ -230,7 +230,7 @@ public final class BuiltinModsScreen extends Screen {
       @Override
       public Text getNarration() {
          return Text.translatable(
-            "rondos.builtin_mods.narration",
+            "client.builtin_mods.narration",
             this.mod.name(),
             this.mod.description(),
             this.mod.screenFactory() == null ? NOT_CONFIGURABLE : CONFIGURABLE

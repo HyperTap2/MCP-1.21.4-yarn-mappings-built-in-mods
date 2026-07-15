@@ -5,4 +5,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'Rondos-MCP'
+rootProject.name = 'MCP-1.21.4'

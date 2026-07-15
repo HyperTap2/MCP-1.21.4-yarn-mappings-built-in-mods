@@ -87,7 +87,7 @@ public class DefaultClientResourcePackProvider extends VanillaResourcePackProvid
                 "waveycapes",
                 "acceleratedrendering",
                 "entityculling",
-                "rondos"
+                "client"
              }
          );
       return defaultResourcePackBuilder.runCallback().withDefaultPaths().withPath(ResourceType.CLIENT_RESOURCES, assetsPath).build(INFO);

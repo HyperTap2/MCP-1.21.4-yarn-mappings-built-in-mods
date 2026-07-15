@@ -88,7 +88,7 @@ public class OptionsScreen extends Screen {
       }
 
       adder.add(this.createButton(CREDITS_AND_ATTRIBUTION_TEXT, () -> new CreditsAndAttributionScreen(this)));
-      adder.add(this.createButton(Text.translatable("rondos.builtin_mods.button"), () -> new BuiltinModsScreen(this)));
+      adder.add(this.createButton(Text.translatable("client.builtin_mods.button"), () -> new BuiltinModsScreen(this)));
       this.layout.addBody(gridWidget);
       this.layout.addFooter(ButtonWidget.builder(ScreenTexts.DONE, button -> this.close()).width(200).build());
       this.layout.forEachChild(child -> {
